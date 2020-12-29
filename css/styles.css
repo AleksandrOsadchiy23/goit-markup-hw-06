@@ -294,14 +294,17 @@ body {
   padding-right: 15px;
   margin: 0 auto;
   /* outline: 1px solid red;  */
-*/ .principles-title {
+
+.principles-title {
   max-width: 270px;
-  margin-bottom: 10px;
-  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
   color: #212121;
 }
 
