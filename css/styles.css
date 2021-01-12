@@ -534,6 +534,11 @@ body {
   background-color: #2f303a;
 }
 
+.footer-box {
+  width: 231px;
+  text-align: left;
+}
+
 .footer .link {
   display: inline-block;
   width: 146px;
@@ -552,36 +557,35 @@ body {
   color: white;
 }
 
-.footer-address-item a {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71px;
-  /* or 171% */
+.map-position {
+  font-family: Roboto;
   font-style: normal;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  text-decoration: none;
-}
-.footer-email,
-.footer-tell {
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.71;
-  font-style: normal;
+   line-height: 1.71px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #FFFFFF;
   text-decoration: none;
 }
 
-.footer-address-item,
-.footer-email-item {
+.footer-email,
+.footer-tell {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  
+}
+
+.footer-address-item {
   margin-bottom: 9px;
   list-style-type: none;
 }
-.footer-email-item,
-.footer-tell-item {
-  list-style-type: none;
-}
+
 .box {
   display: flex;
   align-items: top;
@@ -662,8 +666,8 @@ body {
   width: 358px;
   margin-right: 12px;
   padding-left: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -685,6 +689,7 @@ body {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+ 
 }
 
 .subscription-btn {
@@ -719,6 +724,7 @@ body {
   background: #2196f3;
   fill: #ffffff;
 }
+
 
 /* ==========END FOOTER SUBSCRIPTION================ */
 /* ==========PORTFOLIO===(Стили Header and footer  уже заданы выше)=============== */
